@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="survey">
+
+            <header class="header">
+                <h1>Follow Up Survey</h1>
+            </header>
+
+            <div>
+                <form>
+                    <div class="short-text">
+                        <label for="time using">When did you use our service?</label><br>
+                        <input class="input-text" type="date" name="time using">
+                    </div>
+                    <div class="short-text">
+                        <label for="name">Name of product or service?</label><br>
+                        <input class="input-text" type="text" name="name">
+                    </div>
+                    <div class="question">
+                        <label for="satisfied">Overall,how satisfied are you with the product or service?</label><br>
+                        <div class="choose">
+                            <input type="radio" name="satisfied" id="Very satisfied">
+                            <label for="Very satisfied">Very satisfied</label><br>
+                            <input type="radio" name="satisfied" id="Neutral">
+                            <label for="Neutral">Neutral</label><br>
+                            <input type="radio" name="satisfied" id="Very unsatisfied ">
+                            <label for="Very unsatisfied ">Very unsatisfied </label><br>
+                        </div>
+                        <div class="choose">
+                            <input type="radio" name="satisfied" id="Satisfied">
+                            <label for="Satisfied">Satisfied</label><br>
+                            <input type="radio" name="satisfied" id="Unsatisfied">
+                            <label for="Unsatisfied">Unsatisfied</label><br>
+                            <input type="radio" name="satisfied" id="N/A">
+                            <label for="N/A">N/A</label><br>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <label for="expectations">Did our product or service meet your expectations?</label>
+                        <div>
+                            <input type="radio" name="expectations" id="Yes">
+                            <label for="Yes">Yes</label><br>
+                            <input type="radio" name="expectations" id="No">
+                            <label for="No">No</label><br>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <label for="recommend">Would you recommend this product or service to a friend?</label>
+                        <div>
+                            <input type="radio" name="recommend" id="Yes">
+                            <label for="Yes">Yes</label><br>
+                            <input type="radio" name="recommend" id="No">
+                            <label for="No">No</label><br>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <label for="service">What aspect of the product or service were you most satisfied by?</label>
+                        <div class="choose">
+                            <input type="radio" name="service" id="Quality">
+                            <label for="Quality">Quality</label><br>
+                            <input type="radio" name="service" id="Customer service">
+                            <label for="Customer service">Customer service</label><br>
+                        </div>
+                        <div class="choose">
+                            <input type="radio" name="service" id="Price">
+                            <label for="Price">Price</label><br>
+                            <input type="radio" name="service" id="Installation or first use experience">
+                            <label for="Installation or first use experience">Installation or first use experience</label><br>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <label for="comments">Additional comments:</label><br>
+                        <textarea name="message" rows="10" cols="60"></textarea><br>
+                    </div>
+                    <div>
+                        <div class="submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>

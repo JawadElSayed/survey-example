@@ -1,0 +1,34 @@
+body{
+    background-color: #acabab;
+}
+.survey{
+    margin-left:30%;
+    margin-right: 30%;
+    background-color: #e5e5e5;
+    color: #703b3f;
+}
+.header{
+    font-family:sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0.25px;
+}
+.short-text{
+    display: inline-block;
+    margin: 5%;
+}
+.input-text{
+    width: 200px;
+}
+.question{
+    margin: 5%;
+}
+.choose{
+    display: inline-block;
+    margin-right: 125px;
+}
+.submit{
+    
+    
+    
+}
