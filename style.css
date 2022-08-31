@@ -1,34 +1,67 @@
 body{
     background-color: #acabab;
+    font-family:'Times New Roman', Times, serif;
 }
 .survey{
-    margin-left:30%;
+    margin-left: 30%;
     margin-right: 30%;
+    padding-bottom: 10px;
     background-color: #e5e5e5;
     color: #703b3f;
+    line-height: 25px;
 }
 .header{
     font-family:sans-serif;
     text-align: center;
     background-color: #ffffff;
-    padding: 0.25px;
+    padding: 5px;
 }
 .short-text{
     display: inline-block;
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    
 }
 .input-text{
-    width: 200px;
+    width: 230px;
+}
+.date{
+    margin-left: 5%;
+    margin-block-start: 0;
+    font-size: 12px;
 }
 .question{
-    margin: 5%;
+    margin: 5%; 
+}
+.radio{
+    display: inline-block;
+    font-size: 14px;
 }
 .choose{
     display: inline-block;
-    margin-right: 125px;
+    margin-left: 150px;
+    font-size: 14px;
+}
+.choose1{
+    display: inline-block;
+    margin-left: 220px;
+    font-size: 14px;
 }
 .submit{
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 37px;
+    padding-right: 37px;
+    font-size: 16px;
+    background-image: linear-gradient( #575757 , #868686 );
+    border: none;
+    color: #ffffff;
+    border-radius:6px;
     
     
 }

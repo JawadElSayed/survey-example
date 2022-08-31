@@ -24,9 +24,10 @@
                         <label for="name">Name of product or service?</label><br>
                         <input class="input-text" type="text" name="name">
                     </div>
+                    <p class="date">Date</p>
                     <div class="question">
                         <label for="satisfied">Overall,how satisfied are you with the product or service?</label><br>
-                        <div class="choose">
+                        <div class="radio">
                             <input type="radio" name="satisfied" id="Very satisfied">
                             <label for="Very satisfied">Very satisfied</label><br>
                             <input type="radio" name="satisfied" id="Neutral">
@@ -46,24 +47,47 @@
                     <div class="question">
                         <label for="expectations">Did our product or service meet your expectations?</label>
                         <div>
-                            <input type="radio" name="expectations" id="Yes">
-                            <label for="Yes">Yes</label><br>
-                            <input type="radio" name="expectations" id="No">
-                            <label for="No">No</label><br>
+                            <div class="radio">
+                                <input type="radio" name="expectations" id="Yes">
+                                <label for="Yes">Yes</label><br>
+                            </div>
+                            <div class="choose1">
+                                <input type="radio" name="expectations" id="No">
+                                <label for="No">No</label><br>
+                            </div>
                         </div>
                     </div>
                     <div class="question">
                         <label for="recommend">Would you recommend this product or service to a friend?</label>
                         <div>
-                            <input type="radio" name="recommend" id="Yes">
-                            <label for="Yes">Yes</label><br>
-                            <input type="radio" name="recommend" id="No">
-                            <label for="No">No</label><br>
+                            <div class="radio">
+                                <input type="radio" name="recommend" id="Yes">
+                                <label for="Yes">Yes</label><br>
+                            </div>
+                            <div class="choose1">
+                                <input type="radio" name="recommend" id="No">
+                                <label for="No">No</label><br>
+                            </div>
                         </div>
                     </div>
                     <div class="question">
                         <label for="service">What aspect of the product or service were you most satisfied by?</label>
+                        <div class="radio">
+                            <input type="radio" name="service" id="Quality">
+                            <label for="Quality">Quality</label><br>
+                            <input type="radio" name="service" id="Customer service">
+                            <label for="Customer service">Customer service</label><br>
+                        </div>
                         <div class="choose">
+                            <input type="radio" name="service" id="Price">
+                            <label for="Price">Price</label><br>
+                            <input type="radio" name="service" id="Installation or first use experience">
+                            <label for="Installation or first use experience">Installation or first use experience</label><br>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <label for="service">What aspect of the product or service were you most satisfied by?</label>
+                        <div class="radio">
                             <input type="radio" name="service" id="Quality">
                             <label for="Quality">Quality</label><br>
                             <input type="radio" name="service" id="Customer service">
@@ -78,11 +102,11 @@
                     </div>
                     <div class="question">
                         <label for="comments">Additional comments:</label><br>
-                        <textarea name="message" rows="10" cols="60"></textarea><br>
+                        <textarea name="message" placeholder="Type here..." rows="10" cols="63"></textarea><br>
                     </div>
                     <div>
-                        <div class="submit">
-                            <input type="submit" value="Submit">
+                        <div>
+                            <input class="submit" type="submit" value="Submit">
                         </div>
                     </div>
 
